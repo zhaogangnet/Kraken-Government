@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33E9880C-A25F-4DB1-8C11-0CDBC46B60AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED975BA3-376D-4C3B-818F-1937817EF27D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Zhaogang.AspNetCore.Kraken.Government.Ui", "src\Zhaogang.AspNetCore.Kraken.Government.Ui\Zhaogang.AspNetCore.Kraken.Government.Ui.xproj", "{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B891D27C-5D2C-47EF-B886-7980D13F96A1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Zhaogang.AspNetCore.Kraken.Government.Tests", "test\Zhaogang.AspNetCore.Kraken.Government.Tests\Zhaogang.AspNetCore.Kraken.Government.Tests.xproj", "{F905D227-E840-4A2C-BCAD-83CDD51C5826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905D227-E840-4A2C-BCAD-83CDD51C5826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905D227-E840-4A2C-BCAD-83CDD51C5826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905D227-E840-4A2C-BCAD-83CDD51C5826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905D227-E840-4A2C-BCAD-83CDD51C5826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1FA9AE9-BAD4-4C53-B5C6-E3352A8EEEFA} = {33E9880C-A25F-4DB1-8C11-0CDBC46B60AC}
+		{F905D227-E840-4A2C-BCAD-83CDD51C5826} = {B891D27C-5D2C-47EF-B886-7980D13F96A1}
+	EndGlobalSection
+EndGlobal
